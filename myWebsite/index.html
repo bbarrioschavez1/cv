@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>Bryant's Website</title>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <link rel="stylesheet" href="bryant.css" />
+        <h1>About Me</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="edu.html">Education</a></li>
+          <li><a href="beleif.html">Belief</a></li>
+          <li><a href="rec.html">Recreation</a></li>
+          <li><a href="future.html">Future</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>My Family Table</h2>
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Bryant</td>
+            <td>Barrios</td>
+            <td>21</td>
+          </tr>
+          <tr>
+            <td>Anthony</td>
+            <td>Barrios</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Mario</td>
+            <td>Barrios</td>
+            <td>26</td>
+          </tr>
+          <tr>
+            <td>Roberta</td>
+            <td>Barrios</td>
+            <td>48</td>
+          </tr>
+        </table>
+
+        <h2>What is there to know about me?</h2>
+        <p>
+          Well, it all started in the year of 1998. I was born in Los Angeles,
+          California. My mom and dad raised 3 boys there until I was 4 years
+          old. Then they decided to move to us all to Indiana. Ever since then,
+          we have all grown up to call Indianapolis our home.
+        </p>
+        <h3>5 Random Facts</h3>
+        <ol>
+          <li>I am bi-lingual.</li>
+          <li>I have only ever had one pet.</li>
+          <li>I found software development on accident.</li>
+          <li>I am an electrician.</li>
+          <li>I enjoy making other people's life better.</li>
+        </ol>
+
+        <article>
+          <h2>What does your family look like?</h2>
+          <aside>
+            <p>Family Member Total: <span id="result"></span></p>
+          </aside>
+          <form id="familyform">
+            <fieldset>
+              <legend><span>Household Size</span></legend>
+
+              
+              <label for="parentnum">
+                <p>Parents in household:</p>
+              </label>
+              <input type="number" min="0" max="9" id="parentnum" value="0" />
+              
+              <label for="brothernum">
+                <p>Brothers in household:</p>
+              </label>
+              <input type="number" min="0" max="9" id="brothernum" value="0" />
+
+              <label for="parentnum">
+                <p>Sisters in household:</p>
+              </label>
+              <input type="number" min="0" max="9" id="sisternum" value="0" />
+
+              <label for="parentnum">
+                <p>Pets in household:</p>
+              </label>
+              <input type="number" min="0" max="9" id="petnum" value="0" />
+            </fieldset>
+          </form>
+        </article>
+        
+
+        <br />
+      </main>
+      <footer>
+        Website Created by: Bryant Barrios
+      </footer>
+    </div>
+    <script src="bryant.js"></script>
+  </body>
+</html>
